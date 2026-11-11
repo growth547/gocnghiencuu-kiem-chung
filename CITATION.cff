@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use these results or the scale metadata, please cite them as below."
+title: "Góc Nghiên Cứu: validation of free browser-based statistics tools against R"
+type: software
+authors:
+  - name: "Ban biên tập Góc Nghiên Cứu"
+    website: "https://gocnghiencuu.com/about/"
+    email: "gocnghiencuu1203@gmail.com"
+version: "1.0.0"
+date-released: "2026-11-12"
+license: MIT
+url: "https://gocnghiencuu.com/en/verification/"
+repository-code: "https://github.com/growth547/gocnghiencuu-kiem-chung"
+abstract: >-
+  Reference values computed with R (psych, lavaan, seminr, EFAtools, stats) on public data sets, and the
+  values produced by the free browser-based tools of Góc Nghiên Cứu (gocnghiencuu.com) for Cronbach's alpha,
+  exploratory factor analysis, regression, t-test and ANOVA, PLS-SEM, CB-SEM and sample size: 666 values
+  compared. Also includes metadata (no item wording) for 121 measurement scales used in Vietnamese theses.
+keywords:
+  - psychometrics
+  - structural equation modeling
+  - PLS-SEM
+  - Cronbach's alpha
+  - factor analysis
+  - survey research
+  - reproducibility
+  - Vietnam
+# Before the first release: replace repository-code with the real URL, set date-released to the release date,
+# and after Zenodo mints the DOI add:
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"

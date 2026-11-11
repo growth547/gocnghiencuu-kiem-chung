@@ -1,0 +1,476 @@
+{
+ "generated": "2026-11-01",
+ "versions": {
+  "R": "R version 4.6.1 (2026-06-24 ucrt)",
+  "psych": "2.6.9",
+  "lavaan": "0.7.3",
+  "seminr": "2.6.0",
+  "EFAtools": "1.1.0"
+ },
+ "compared": 666,
+ "tools": {
+  "cronbach": {
+   "n": 92,
+   "maxDiff": 4.928024655015406e-11,
+   "rows": [
+    {
+     "label": "bfi A",
+     "n": 2709,
+     "ours": 0.7038,
+     "ref": 0.7038,
+     "oursMinCitc": 0.3114,
+     "refMinCitc": 0.3114
+    },
+    {
+     "label": "bfi C",
+     "n": 2707,
+     "ours": 0.7293,
+     "ref": 0.7293,
+     "oursMinCitc": 0.4553,
+     "refMinCitc": 0.4553
+    },
+    {
+     "label": "bfi E",
+     "n": 2713,
+     "ours": 0.7609,
+     "ref": 0.7609,
+     "oursMinCitc": 0.4546,
+     "refMinCitc": 0.4546
+    },
+    {
+     "label": "bfi N",
+     "n": 2694,
+     "ours": 0.8133,
+     "ref": 0.8133,
+     "oursMinCitc": 0.4867,
+     "refMinCitc": 0.4867
+    },
+    {
+     "label": "bfi O",
+     "n": 2726,
+     "ours": 0.6025,
+     "ref": 0.6025,
+     "oursMinCitc": 0.2199,
+     "refMinCitc": 0.2199
+    },
+    {
+     "label": "HS visual",
+     "n": 301,
+     "ours": 0.6261,
+     "ref": 0.6261,
+     "oursMinCitc": 0.375,
+     "refMinCitc": 0.375
+    },
+    {
+     "label": "HS textual",
+     "n": 301,
+     "ours": 0.8827,
+     "ref": 0.8827,
+     "oursMinCitc": 0.7654,
+     "refMinCitc": 0.7654
+    },
+    {
+     "label": "HS speed",
+     "n": 301,
+     "ours": 0.6885,
+     "ref": 0.6885,
+     "oursMinCitc": 0.4555,
+     "refMinCitc": 0.4555
+    }
+   ]
+  },
+  "efa": {
+   "n": 124,
+   "maxDiff": 0.00024319799084909083,
+   "rows": [
+    {
+     "label": "bfi 25 items",
+     "n": 2436,
+     "k": 5,
+     "kmo": [
+      0.8486,
+      0.8486
+     ],
+     "bartlett": [
+      18146.07,
+      18146.07
+     ],
+     "df": 300,
+     "eig1": [
+      5.1343,
+      5.1343
+     ],
+     "maxLoadingDiff": 0.00024319799084909083
+    },
+    {
+     "label": "HS x1-x9",
+     "n": 301,
+     "k": 3,
+     "kmo": [
+      0.7522,
+      0.7522
+     ],
+     "bartlett": [
+      904.1,
+      904.1
+     ],
+     "df": 36,
+     "eig1": [
+      3.2163,
+      3.2163
+     ],
+     "maxLoadingDiff": 0.000019641455906632688
+    }
+   ],
+   "spss27": {
+    "cases": 6,
+    "maxDiff": 6.386093785726299e-9
+   }
+  },
+  "regression": {
+   "n": 30,
+   "maxDiff": 4.84603815409379e-11,
+   "rows": [
+    {
+     "label": "R²",
+     "ours": 0.2606,
+     "ref": 0.2606
+    },
+    {
+     "label": "R² hiệu chỉnh",
+     "ours": 0.2506,
+     "ref": 0.2506
+    },
+    {
+     "label": "F",
+     "ours": 26.0785,
+     "ref": 26.0785
+    },
+    {
+     "label": "B (x1)",
+     "ours": 0.3121,
+     "ref": 0.3121
+    },
+    {
+     "label": "B (x4)",
+     "ours": 0.0348,
+     "ref": 0.0348
+    },
+    {
+     "label": "B (x7)",
+     "ours": 0.2769,
+     "ref": 0.2769
+    },
+    {
+     "label": "B (ageyr)",
+     "ours": 0.0917,
+     "ref": 0.0917
+    },
+    {
+     "label": "Beta chuẩn hoá (x1)",
+     "ours": 0.3611,
+     "ref": 0.3611
+    },
+    {
+     "label": "Beta chuẩn hoá (x4)",
+     "ours": 0.0402,
+     "ref": 0.0402
+    },
+    {
+     "label": "Beta chuẩn hoá (x7)",
+     "ours": 0.2989,
+     "ref": 0.2989
+    },
+    {
+     "label": "Beta chuẩn hoá (ageyr)",
+     "ours": 0.0954,
+     "ref": 0.0954
+    },
+    {
+     "label": "Durbin–Watson",
+     "ours": 2.0426,
+     "ref": 2.0426
+    }
+   ]
+  },
+  "ttest": {
+   "n": 14,
+   "maxDiff": 4.7700510208414926e-11,
+   "rows": [
+    {
+     "label": "t (Student, phương sai bằng nhau)",
+     "ours": 1.4062,
+     "ref": 1.4062
+    },
+    {
+     "label": "p (Student)",
+     "ours": 0.1607,
+     "ref": 0.1607
+    },
+    {
+     "label": "t (Welch)",
+     "ours": 1.4095,
+     "ref": 1.4095
+    },
+    {
+     "label": "df (Welch)",
+     "ours": 298.9025,
+     "ref": 298.9025
+    },
+    {
+     "label": "F (ANOVA một yếu tố)",
+     "ours": 6.017,
+     "ref": 6.017
+    },
+    {
+     "label": "F (Welch)",
+     "ours": 5.9309,
+     "ref": 5.9309
+    },
+    {
+     "label": "F (Levene)",
+     "ours": 1.309,
+     "ref": 1.309
+    }
+   ]
+  },
+  "pls": {
+   "n": 84,
+   "maxDiff": 4.9547033142971486e-11,
+   "rows": [
+    {
+     "label": "Hệ số đường dẫn Expectation → Satisfaction",
+     "ours": 0.1672,
+     "ref": 0.1672
+    },
+    {
+     "label": "Hệ số đường dẫn Satisfaction → Loyalty",
+     "ours": 0.4882,
+     "ref": 0.4882
+    },
+    {
+     "label": "Hệ số đường dẫn Image → Satisfaction",
+     "ours": 0.4451,
+     "ref": 0.4451
+    },
+    {
+     "label": "R² Expectation",
+     "ours": 0.2565,
+     "ref": 0.2565
+    },
+    {
+     "label": "R² Value",
+     "ours": 0.1286,
+     "ref": 0.1286
+    },
+    {
+     "label": "R² Satisfaction",
+     "ours": 0.5901,
+     "ref": 0.5901
+    },
+    {
+     "label": "R² Complaints",
+     "ours": 0.2801,
+     "ref": 0.2801
+    },
+    {
+     "label": "R² Loyalty",
+     "ours": 0.4578,
+     "ref": 0.4578
+    },
+    {
+     "label": "AVE Image",
+     "ours": 0.4784,
+     "ref": 0.4784
+    },
+    {
+     "label": "AVE Expectation",
+     "ours": 0.4805,
+     "ref": 0.4805
+    },
+    {
+     "label": "AVE Value",
+     "ours": 0.8487,
+     "ref": 0.8487
+    },
+    {
+     "label": "AVE Satisfaction",
+     "ours": 0.6927,
+     "ref": 0.6927
+    },
+    {
+     "label": "AVE Loyalty",
+     "ours": 0.5173,
+     "ref": 0.5173
+    }
+   ]
+  },
+  "sampleSize": {
+   "n": 36,
+   "maxDiff": 0,
+   "rows": [
+    {
+     "label": "Hồi quy, 2 biến độc lập, f² = 0,15",
+     "ours": 68,
+     "ref": 68
+    },
+    {
+     "label": "Hồi quy, 3 biến độc lập, f² = 0,15",
+     "ours": 77,
+     "ref": 77
+    },
+    {
+     "label": "Hồi quy, 5 biến độc lập, f² = 0,15",
+     "ours": 92,
+     "ref": 92
+    },
+    {
+     "label": "Hồi quy, 8 biến độc lập, f² = 0,15",
+     "ours": 109,
+     "ref": 109
+    },
+    {
+     "label": "Hồi quy, 10 biến độc lập, f² = 0,15",
+     "ours": 118,
+     "ref": 118
+    },
+    {
+     "label": "PLS-SEM, căn bậc hai nghịch đảo, hệ số nhỏ nhất 0,1",
+     "ours": 619,
+     "ref": 619
+    },
+    {
+     "label": "PLS-SEM, căn bậc hai nghịch đảo, hệ số nhỏ nhất 0,2",
+     "ours": 155,
+     "ref": 155
+    },
+    {
+     "label": "PLS-SEM, căn bậc hai nghịch đảo, hệ số nhỏ nhất 0,3",
+     "ours": 69,
+     "ref": 69
+    }
+   ]
+  },
+  "cbsem": {
+   "n": 286,
+   "maxDiff": 0.000011217031077759287,
+   "rows": [
+    {
+     "label": "χ² (HS)",
+     "ours": 85.3055,
+     "ref": 85.3055
+    },
+    {
+     "label": "CFI (HS)",
+     "ours": 0.9306,
+     "ref": 0.9306
+    },
+    {
+     "label": "TLI (HS)",
+     "ours": 0.8958,
+     "ref": 0.8958
+    },
+    {
+     "label": "RMSEA (HS)",
+     "ours": 0.0921,
+     "ref": 0.0921
+    },
+    {
+     "label": "SRMR (HS)",
+     "ours": 0.0652,
+     "ref": 0.0652
+    },
+    {
+     "label": "Hệ số tải chuẩn hoá x2 (visual)",
+     "ours": 0.4236,
+     "ref": 0.4236
+    },
+    {
+     "label": "Hệ số tải chuẩn hoá x5 (textual)",
+     "ours": 0.8551,
+     "ref": 0.8551
+    },
+    {
+     "label": "Hệ số tải chuẩn hoá x9 (speed)",
+     "ours": 0.665,
+     "ref": 0.665
+    },
+    {
+     "label": "χ² (mobi)",
+     "ours": 199.8229,
+     "ref": 199.8229
+    },
+    {
+     "label": "CFI (mobi)",
+     "ours": 0.9379,
+     "ref": 0.9379
+    },
+    {
+     "label": "TLI (mobi)",
+     "ours": 0.9239,
+     "ref": 0.9239
+    },
+    {
+     "label": "RMSEA (mobi)",
+     "ours": 0.0566,
+     "ref": 0.0566
+    },
+    {
+     "label": "SRMR (mobi)",
+     "ours": 0.0493,
+     "ref": 0.0493
+    },
+    {
+     "label": "β chuẩn hoá VAL → SAT",
+     "ours": 0.2654,
+     "ref": 0.2654
+    },
+    {
+     "label": "β chuẩn hoá EXPE → VAL",
+     "ours": 0.656,
+     "ref": 0.656
+    },
+    {
+     "label": "β chuẩn hoá SAT → LOY",
+     "ours": 1.1127,
+     "ref": 1.1127
+    },
+    {
+     "label": "χ² bất biến cấu hình (HS theo trường)",
+     "ours": 115.8513,
+     "ref": 115.8513
+    },
+    {
+     "label": "χ² bất biến hệ số tải (HS theo trường)",
+     "ours": 124.0435,
+     "ref": 124.0435
+    },
+    {
+     "label": "χ² bất biến hệ số chặn (HS theo trường)",
+     "ours": 164.1028,
+     "ref": 164.1028
+    },
+    {
+     "label": "χ² CMB: Harman một nhân tố (HS)",
+     "ours": 312.2642,
+     "ref": 312.2642
+    },
+    {
+     "label": "χ² CMB: nhân tố phương pháp ULMC (HS)",
+     "ours": 54.8968,
+     "ref": 54.8968
+    },
+    {
+     "label": "χ² CMB: marker Method-C (HS)",
+     "ours": 91.8363,
+     "ref": 91.8363
+    },
+    {
+     "label": "Cận dưới KTC 95% bootstrap CL → GT → HL (60 mẫu, cùng mẫu lặp)",
+     "ours": 0.118,
+     "ref": 0.118
+    }
+   ]
+  }
+ }
+}
